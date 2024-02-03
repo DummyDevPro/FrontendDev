@@ -1,0 +1,32 @@
+body {
+    margin: 0;
+}
+
+.p-one {
+    background-color: red;
+    padding: 8px;
+}
+
+.a-one {
+    display: inline-block;
+    background-color: blue;
+    padding: 16px;
+}
+
+.a-two {
+    display: inline-block;
+    background-color: green;
+    padding: 24px;
+}
+
+.a-three {
+    display: inline-block;
+    background-color: yellow;
+    padding: 32px;
+}
+
+.a-four {
+    display: inline-block;
+    background-color: pink;
+    padding: 48px;
+}

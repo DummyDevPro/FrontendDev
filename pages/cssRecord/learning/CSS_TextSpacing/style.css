@@ -1,0 +1,43 @@
+#p1 {
+    text-indent: 50px;
+}
+/* text-indent specify the indentation of the first line of the text */
+
+#head1 {
+    letter-spacing: 5px;
+}
+
+#head2 {
+    letter-spacing: 1px;
+}
+/* letter-spacing specifies space between letters */
+
+#p2 {
+    line-height: 50px;
+}
+
+#p3 {
+    line-height: 10px;
+}
+/* specifies height between lines of text */
+
+#p4 {
+    word-spacing: -2px;
+}
+
+#p5 {
+    word-spacing: 10px;
+}
+/* specifies distance between words */
+
+#p6 {
+    width: 500px;
+    background-color: palevioletred;
+    white-space: nowrap;
+}
+
+#p7 {
+    width: 500px;
+    background-color: palevioletred;
+    white-space: normal;
+}

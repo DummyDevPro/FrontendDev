@@ -1,0 +1,15 @@
+h1 {
+    color: #ff69b4;
+    border: 10px solid palevioletred;
+    /* background-color: pink; */
+    padding: 100px 10px;
+    background-image: url('../Images/backg.jpg');
+    background-repeat: no-repeat;
+
+    /* background-position: center; */
+    /* background-position-y: center;
+    background-position-x: center; */
+
+    background-position: left top;
+    background-attachment: fixed;
+}

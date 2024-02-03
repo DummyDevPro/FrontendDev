@@ -1,0 +1,37 @@
+body {
+    background-image: url(../images/greenbg.png);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: repeat;
+}
+
+.container > .learning > a {
+    
+    color: rgb(4, 154, 122);
+    border: .5rem double rgb(4, 154, 122);
+    background-color: whitesmoke;
+
+}
+
+.container > .practice > a {
+    color: rgb(4, 154, 122);
+    border: .5rem double rgb(4, 154, 122);
+    background-color: rgb(245, 245, 245);
+
+}
+
+.container > .learning > a:hover {
+    background-color: rgb(4, 154, 122);
+    border: .5rem double rgb(245, 245, 245);
+    color: rgb(245, 245, 245);
+}
+
+.container > .practice > a:hover {
+    background-color: rgb(4, 154, 122);
+    border: .5rem double rgb(245, 245, 245);
+    color: rgb(245, 245, 245);
+}
+
+.color-green {
+    color: rgb(4, 154, 122);
+}

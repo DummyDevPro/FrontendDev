@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+}
+
+#par1 {
+    border-top: 1px solid gainsboro;
+    border-bottom: 1px solid gainsboro;
+    padding: 10px;
+}
+
+.list-link {
+    color: black;
+}
+
+#par2 {
+    border-bottom: 1px solid gainsboro;
+    padding-bottom: 15px;
+}
+
+.example {
+    background-color: gainsboro;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.code {
+    background-color: white;
+    padding: 10px;
+    border-left: 5px solid green;
+}
+
+.link-button {
+    display: inline-block;
+    background-color: green;
+    padding: 7px;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+}
+
+.note {
+    background-color: lemonchiffon;
+    padding: 30px;
+}

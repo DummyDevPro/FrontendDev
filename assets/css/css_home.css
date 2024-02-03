@@ -1,0 +1,38 @@
+body {
+    background-image: url(../images/homebg.jpeg);
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+
+.container > .learning > a {
+    
+    color: orange;
+    border: .5rem double orange;
+    background-color: white;
+
+}
+
+.container > .practice > a {
+    
+    color: orange;
+    border: .5rem double orange;
+    background-color: white;
+
+}
+
+.container > .learning > a:hover {
+    background-color: orange;
+    border: .5rem double white;
+    color: white;
+}
+
+.container > .practice > a:hover {
+    background-color: orange;
+    border: .5rem double white;
+    color: white;
+}
+
+.color-orange {
+    color: orange;
+}

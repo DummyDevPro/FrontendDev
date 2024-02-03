@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+.p-one {
+    background-color: darkblue;
+    color: white;
+    padding: 16px;
+
+    transition: all .3s;
+}
+
+.p-one:hover {
+    background-color: darkred;
+    font-size: 32px;
+    color: aquamarine;
+}
+
+.btn {
+    background-color: darkblue;
+    color: white;
+    padding: 8px 16px;
+    border-radius: 8px;
+    border: none;
+
+    transition: all .3s;
+
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: blue;
+}

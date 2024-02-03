@@ -1,0 +1,26 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+.box-one {
+    /* flexible value */
+    background-color: pink;
+    height: 300px;
+    width: 90%;
+}
+
+.box-two {
+    /* fixed value */
+    background-color: yellow;
+    height: 300px;
+    width: 500px;
+}
+
+.box-one-one {
+    height: 200px;
+    width: 50%;
+    background-color: black;
+}

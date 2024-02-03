@@ -1,0 +1,20 @@
+.bg-grey {
+    background-color: gainsboro;
+    padding: 16px;
+}
+
+.code {
+    background-color: white;
+    padding: 10px;
+    border-left: 5px solid green;
+}
+
+.link-btn {
+    display: inline-block;
+
+    background-color: green;
+    color: white;
+    padding: 8px;
+    text-decoration: none;
+    border-radius: 4px;
+}

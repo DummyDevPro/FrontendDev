@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-white {
+    color: white;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.fs-1 {
+    font-size: 1rem;
+}
+
+.fs-1-2 {
+    font-size: 1.2rem;
+}
+
+.p-y-1 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.p-y-3 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.home-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: gainsboro;
+    box-shadow: 5px 5px 2px gray;
+    width: 60px;
+    height: 60px;
+    border: 2px solid violet;
+    border-radius: 50%;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+.home-button > a {
+    text-decoration: none;
+    color: grey;
+    font-size: 14px;
+}
+
+/* .home-button:hover {
+    background-color: gray;
+    color: gainsboro;
+    border: 1px solid gainsboro;
+} */
+
+.home-button > a:hover {
+    color: violet;
+}

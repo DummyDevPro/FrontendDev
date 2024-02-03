@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+.bg-red {
+    background-color: red;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.bg-blue {
+    background-color: blue;
+}
+
+.bg-purple {
+    background-color: purple;
+}
+
+.flex-box {
+    display: flex;
+    background-color: pink;
+
+    flex-wrap: wrap;
+}
+/* flex-wrap: wrap will prevent from overflowing by moving to the next row */
+
+.item-one {
+    flex: 2;
+}
+
+.item-two {
+    flex: 1;
+}
+
+.item-three { 
+    flex: 1;
+}
+
+.item-four {
+    flex: 1;
+}
+/* parent's width will be divided into equal parts depending on the number */
+
+.item {
+    flex: 1;
+}
+
+.flex-item {
+    flex-shrink: 0;
+    flex-grow: 0;
+    width: 400px;
+}
+/* by default size will be adjusted to the parent
+flex-shrink and flex-grow set to 0 will stop it */

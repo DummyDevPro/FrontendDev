@@ -1,0 +1,26 @@
+/* .one {
+    color: red;
+}
+
+.two {
+    color: green;
+}
+
+.one > a {
+    color: red;
+}
+
+.two > a {
+    color: green;
+} */
+
+.one * {
+    color: red;
+}
+
+.two * { 
+    color: green;
+}
+
+/*  > * selects only first children/first level */
+/* [space]* selects all elements inside */

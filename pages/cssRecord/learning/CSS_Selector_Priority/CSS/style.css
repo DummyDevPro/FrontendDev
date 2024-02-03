@@ -1,0 +1,13 @@
+p {
+    color: red !important;
+}
+
+.color-blue {
+    color: blue;
+}
+
+#par-one {
+    color: darkcyan;
+}
+
+/* Priority: inline, id, class, element */

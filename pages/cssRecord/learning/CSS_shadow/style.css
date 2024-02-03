@@ -1,0 +1,41 @@
+#p1 {
+    font-size: 20px;
+    text-shadow: 1px 1px;
+}
+
+#p2 {
+    font-size: 20px;
+    text-shadow: 1px 1px red;
+}
+
+#p3 {
+    font-size: 20px;
+    text-shadow: 1px 1px 5px red;
+}
+/* Blur is the third number
+First and second are vertical and horizontal shadows */
+
+#p4 {
+    font-size: 20px;
+    color: white;
+    text-shadow: 2px 2px darkcyan;
+}
+
+#p5 {
+    font-size: 20px;
+    text-shadow: 0 0 3px greenyellow;
+}
+
+#p6 {
+    font-size: 20px;
+    text-shadow: 0 0 3px red, 0 0 5px blue;
+}
+
+#p7 { 
+    font-size: 20px;
+    color: white;
+    text-shadow: 0 0 2px hotpink, 0 0 20px pink, 0 0 5px purple;
+}
+
+
+

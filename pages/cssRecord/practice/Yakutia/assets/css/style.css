@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.d-flex {
+    display: flex;
+    align-items: center;
+}
+
+.left {
+    width: 50%;
+}
+
+.right {
+    width: 50%;
+}
+
+.left > img {
+    width: 60%;
+    border-radius: 10px;
+}
+
+.right > img {
+    width: 60%;
+    border-radius: 10px;
+}
+
+.p-y-3 {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
+.p-y-1 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.p-y-1-half {
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+}
+
+.bg-image {
+    background-image: url(../images/header.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 12rem;
+    padding-bottom: 12rem;
+}
+
+.bg-blue {
+    background-color: rgb(95,147,172);
+}
+
+.bg-blue-tr {
+    background-color: rgba(95,147,172, 0.7);
+}
+
+.bg-yellow {
+    background-color: palegoldenrod;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.header-text {
+    display: inline;
+    border: 2px solid palegoldenrod;
+    border-radius: 12px;
+    padding: 1rem;
+    background-color: rgba(238, 232, 170, 0.2);
+
+}
+
+.text-blue {
+    color: rgb(24,62,89);
+}
+
+.text-yellow{
+    color: palegoldenrod;
+}
+
+.fs-1-half {
+    font-size: 1.5rem;
+}
+
+
+.nav-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.nav-bar > a {
+    color: palegoldenrod;
+    text-decoration: none;
+    border-bottom: 2px solid palegoldenrod;
+    padding: 1rem;
+    transition: all .5s;
+}
+
+.nav-bar > a + a {
+    margin-left: 1rem;
+}
+
+.nav-bar > a:hover {
+    background-color: palegoldenrod;
+    color: rgb(24,62,89);
+}
+
+.button {
+    text-decoration: none;
+    padding: .5rem;
+    border-radius: 8px;
+    transition: all .5s;
+}
+
+.btn-yellow {
+    background-color: palegoldenrod;
+    color: rgb(24,62,89);
+    border: 1px solid rgb(24,62,89);
+}
+
+.btn-yellow:hover {
+    background-color: rgb(24,62,89);
+    color: palegoldenrod;
+    border: 1px solid rgb(24,62,89);
+}
+
+.btn-blue {
+    background-color: rgb(24,62,89);
+    color: palegoldenrod;
+    border: 1px solid palegoldenrod;
+}
+
+.btn-blue:hover {
+    background-color: palegoldenrod;
+    color: rgb(24,62,89);
+    border: 1px solid rgb(24,62,89);
+}

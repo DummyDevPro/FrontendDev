@@ -1,0 +1,18 @@
+p {
+    /* color: darkblue;
+
+    border-top: 2px solid red;
+
+    border-bottom: 2px solid red;
+
+    border-left: 2px solid yellowgreen;
+
+    border-right: 2px solid aqua; */
+
+    border: 10px inset aqua; 
+
+    /* border-radius: 20px; */
+
+    border-top-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}

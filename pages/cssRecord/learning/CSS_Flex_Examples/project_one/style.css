@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    box-sizing: border-box;
+}
+
+.bg-black {
+    background-color: black;
+}
+
+.bg-red{
+    background-color: red;
+}
+
+.bg-green {
+    background-color: green;
+}
+
+.container {
+    display: flex;
+
+    /* align-items: center; */
+}
+
+.container > div {
+    width: 50%;
+}
+
+.left > img {
+    width: 70%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.left {
+    display: flex;
+    justify-content: center;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}

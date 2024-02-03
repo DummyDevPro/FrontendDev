@@ -1,0 +1,35 @@
+body {
+    background-color: chocolate;
+    margin: 0;
+}
+
+p {
+    background-color: hotpink;
+    text-align: center;
+}
+
+a {
+    background-color: yellowgreen;
+}
+
+.box {
+    background-color: blueviolet;
+    width: 500px;
+    margin: 0 auto;
+}
+
+/* 0 auto 
+Top, bottom - 0
+Right, left - auto */
+
+.link-btn {
+    background-color: darkblue;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+    margin: 0  auto;
+    width: max-content;
+}
+
+/* receives width of the content */

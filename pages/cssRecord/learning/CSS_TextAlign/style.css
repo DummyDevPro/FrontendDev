@@ -1,0 +1,35 @@
+h1 {
+    color: aqua;
+
+    border: 1px solid blue;
+    /* horizontal alignment */
+    /* left, center, right */
+    text-align: center;
+
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.p-left {
+    width: 400px;
+    background-color: pink;
+    text-align: left;
+}
+
+.p-right {
+    width: 400px;
+    background-color: pink;
+    text-align: right;
+}
+
+.p-center {
+    width: 400px;
+    background-color: pink;
+    text-align: center;
+}
+
+.p-justify {
+    width: 400px;
+    background-color: pink;
+    text-align: justify;
+}

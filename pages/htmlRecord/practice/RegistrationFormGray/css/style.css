@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+    padding: 0;
+
+    /* box sizing */
+    box-sizing: border-box;
+}
+
+.table {
+    background: gainsboro;
+    padding: 16px;
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.header {
+    text-decoration: underline;
+    font-size: 25px;
+}
+
+.reset-btn {
+    margin-left: 30px;
+}

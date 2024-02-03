@@ -1,0 +1,38 @@
+body {
+    background-image: url(../images/bluebg.jpeg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.iframe-blue {
+    border: 2px solid rgb(8, 96, 228);
+    border-radius: .5rem;
+    background-color: rgba(126, 197, 254, 0.8);
+}
+
+.container>.left-nav>ul>li>ul>li>a {
+    text-decoration: none;
+    display: inline-block;
+    background-color: rgba(8, 96, 228, 0.6);
+    color: white;
+    padding: .5rem 1rem;
+    margin-bottom: .5rem;
+    width: 100%;
+    border-radius: .5rem;
+    border: 2px solid rgb(8, 96, 228);
+
+}
+
+
+.container>.left-nav>ul>li>ul>li>a:hover {
+    background-color: rgba(126, 197, 254, 0.8);
+    color: black;
+    border-radius: .5rem;
+    border: 2px solid rgb(8, 96, 228);
+
+}
+
+.text-white {
+    color: white;
+}

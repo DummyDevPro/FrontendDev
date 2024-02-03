@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+}
+
+.p-one {
+    width: 300px;
+    height: 400px;
+    background-color: hotpink;
+    padding: 16px;
+}
+
+.a-one {
+    display: block;
+
+    background-color: darkblue;
+    text-decoration: none;
+    color: white;
+    padding: 8px;
+    width: 300px;
+    height: 300px;
+}
+
+.i-one {
+    display: block;
+    height: 50px;
+    width: 100px;
+    background-color: aquamarine;
+    padding: 10px;
+}
